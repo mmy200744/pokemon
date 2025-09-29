@@ -128,7 +128,7 @@
           const data2 = await response2.json();
           // 한글 이름
           console.log(data2);
-          console.log(data2.names); // 스페이스도 없고 특수문자도 없어서...
+          console.log(data2.names); // 스페이스도 없고 특수문자도 없어서..
           console.log(data2.names.filter((v) => v.language.name === "ko"));
           console.log(
             data2.names.filter((v) => v.language.name === "ko")[0].name
